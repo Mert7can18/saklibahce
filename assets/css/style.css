@@ -447,6 +447,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   padding: 0;
+  max-width: 100%; /* Fotoğrafın genişliği taşmayı engeller */
+  height: auto; /* Oranları korur */
+  display: block; /* Taşmayı önlemek için */
+
 }
 
 #hero:before {
